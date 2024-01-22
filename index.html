@@ -47,7 +47,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <button><a class="text-4xl font-extrabold text-[#131318]">Hockey<span
+                    <button><a class="text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span
                                 class="text-[#FF4240]">’</span>s</a></button>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -69,62 +69,127 @@
         <div>
             <div class="carousel w-full">
 
-               <!-- first slider -->
-                <div id="slide1" class="carousel-item relative w-full bg-[url(./images/1.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
+                <!-- first slider -->
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[url(./images/1.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <!-- second slide -->
-                <div id="slide2" class="carousel-item relative w-full bg-[url(./images/2.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[url(./images/2.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <!-- third slide -->
-                <div id="slide3" class="carousel-item relative w-full bg-[url(./images/3.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
+                <div id="slide3"
+                    class="carousel-item relative w-full bg-[url(./images/3.png)] bg-center bg-cover py-10 rounded-lg lg:h-[60vh]">
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </header>
     <main class="w-4/5 mx-auto">
-        <section class="container my-20">
-                <div class="text-center space-y-3 mb-6">
-                    <h3 class="text-3xl lg:text-4xl font-extrabold">Professional Hockeys Club</h3>
-                    <p class="w-4/5 lg:w-3/4 mx-auto">The professional hockey club stands as a formidable entity within the competitive realm of professional sports, captivating the hearts of fans and enthusiasts.</p>
-                </div>
-                <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
-                    <div class="flex flex-col justify-center items-center gap-2">
-                        <div class="radial-progress text-[#FF4240]" style="--value:80;" role="progressbar"><span class="text-xl font-extrabold text-[#131318]">80%</span></div>
-                        <h4 class="text-xl font-semibold">Prayer Facility</h4>
-                        <p class="text-center opacity-80">The hockey club values diversity and evident in its provision of a dedicated prayer facility.</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-2">
-                        <div class="radial-progress text-[#49D293]" style="--value:90;" role="progressbar"><span class="text-xl font-extrabold text-[#131318]">95%</span></div>
-                        <h4 class="text-xl font-semibold">Experienced Coach</h4>
-                        <p class="text-center opacity-80">
-                            At the helm of the professional hockey club stands an experienced coach whose wealth.</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-2">
-                        <div class="radial-progress text-[#FFB546]" style="--value:85;" role="progressbar"><span class="text-xl font-extrabold text-[#131318]">85%</span></div>
-                        <h4 class="text-xl font-semibold">Senior Player</h4>
-                        <p class=" text-center opacity-80">The senior player within the as a rich tapestry of experience, leadership commitment.</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-2">
-                        <div class="radial-progress text-[#4C8DF1]" style="--value:87;" role="progressbar"><span class="text-xl font-extrabold text-[#131318]">87%</span></div>
-                        <h4 class="text-xl font-semibold">Training Ground</h4>
-                        <p class="text-center opacity-80">The training ground of the serves as the crucible where raw talent is honed into force on the ice.</p>
-                    </div>
-                </div>
-            
 
+        <!-- club section -->
+        <section class="container my-20">
+            <div class="text-center space-y-3 mb-6">
+                <h3 class="text-3xl lg:text-4xl font-extrabold">Professional Hockeys Club</h3>
+                <p class="w-4/5 lg:w-3/4 mx-auto">The professional hockey club stands as a formidable entity within the
+                    competitive realm of professional sports, captivating the hearts of fans and enthusiasts.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <div class="card flex flex-col justify-center items-center gap-2">
+                    <div class="radial-progress text-[#FF4240]" style="--value:80;" role="progressbar"><span
+                            class="text-xl font-extrabold text-[#131318]">80%</span></div>
+                    <h4 class="text-xl font-semibold">Prayer Facility</h4>
+                    <p class="text-center opacity-80">The hockey club values diversity and evident in its provision of a
+                        dedicated prayer facility.</p>
+                </div>
+                <div class="card flex flex-col justify-center items-center gap-2">
+                    <div class="radial-progress text-[#49D293]" style="--value:90;" role="progressbar"><span
+                            class="text-xl font-extrabold text-[#131318]">95%</span></div>
+                    <h4 class="text-xl font-semibold">Experienced Coach</h4>
+                    <p class="text-center opacity-80">
+                        At the helm of the professional hockey club stands an experienced coach whose wealth.</p>
+                </div>
+                <div class="card flex flex-col justify-center items-center gap-2">
+                    <div class="radial-progress text-[#FFB546]" style="--value:85;" role="progressbar"><span
+                            class="text-xl font-extrabold text-[#131318]">85%</span></div>
+                    <h4 class="text-xl font-semibold">Senior Player</h4>
+                    <p class=" text-center opacity-80">The senior player within the as a rich tapestry of experience,
+                        leadership commitment.</p>
+                </div>
+                <div class="card flex flex-col justify-center items-center gap-2">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:87;" role="progressbar"><span
+                            class="text-xl font-extrabold text-[#131318]">87%</span></div>
+                    <h4 class="text-xl font-semibold">Training Ground</h4>
+                    <p class="text-center opacity-80">The training ground of the serves as the crucible where raw talent
+                        is honed into force on the ice.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Section -->
+        <section class="container my-20">
+            <div class="text-center space-y-3 mb-6">
+                <h3 class="text-3xl lg:text-4xl font-extrabold">Program Section</h3>
+                <p class="w-4/5 lg:w-3/4 mx-auto">The hockey club's comprehensive program is the heartbeat of
+                    its organizational structure, crafted to foster player development, and community engagement.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                <div class="card bg-base-100 image-full lg:h-[60vh]">
+                    <figure><img cl src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-[#FFFFFF] text-2xl font-extrabold">Junior Program</h2>
+                        <p class="text-[#FFFFFF] opacity-80">The Junior Program within the hockey club stands as a
+                            cornerstone for developing the next generation of skilled athletes and passionate hockey
+                            enthusiasts.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn text-xl font-bold text-white bg-[#FF4240] hover:bg-[#B68C5A] border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 image-full lg:h-[60vh]">
+                    <figure><img src="Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-[#FFFFFF] text-2xl font-extrabold">Teenager Program</h2>
+                        <p class="text-[#FFFFFF] opacity-80">The Teenager Program within the hockey club stands as a
+                            cornerstone for developing the next generation of skilled athletes and passionate hockey
+                            enthusiasts.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn text-xl font-bold text-white bg-[#FF4240] hover:bg-[#B68C5A] border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 image-full lg:col-span-2 lg:h-[60vh]">
+                    <figure><img class="w-full bg-cover" src="Images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                            <h2 class="text-[#FFFFFF] text-2xl font-extrabold">Professional Program</h2>
+                            <p class="text-[#FFFFFF] opacity-80">The Professional Program within the hockey club stands
+                                as a for developing the next generation of skilled athletes and passionate hockey
+                                enthusiasts.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn text-xl font-bold text-white bg-[#FF4240] hover:bg-[#B68C5A] border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
